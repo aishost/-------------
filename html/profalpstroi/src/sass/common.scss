@@ -1,5 +1,7 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Onest", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-weight: 300;
 }
 
@@ -8,11 +10,11 @@ b {
 }
 
 .container {
-  max-width: 1160px;
-  padding: 0 15px;
+  max-width: 103.125rem;
+  padding: 0 .9375rem;
 }
 
-@media (min-width: 1140px) {
+@media (min-width: 71.25rem) {
   .container {
     padding: initial;
   }
